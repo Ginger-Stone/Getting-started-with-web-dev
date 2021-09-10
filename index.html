@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DIOT - Welcome</title>
+
+        <link rel="shortcut icon" href="./images/logo.png" type="image/x-png">
+
+    <!--  JS -->
+    <script defer src="https://kit.fontawesome.com/2053a9f79c.js" crossorigin="anonymous"></script>
+    <script defer src="./js/script.js"></script>
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body onscroll="arrowDownToggle()">
+    <nav>
+        <div class="nav-left">
+            <img class="logo" src="./images/logo.png" alt="">
+        </div>
+        <div class="nav-right">
+            <div class="nav-links">
+                <a href="/index.html">Home</a>
+                <a href="/index.html#about">About</a>
+                <a href="contact.html">Contact</a>
+                <!-- TODO - this should be an icon that changes from day to night -->
+                <span id="dark-mode">
+
+                    <button onclick="darkModeToggle()">Switch <i class="fas fa-moon" id="mode-switch"></i></button> 
+                </span>
+
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div id="home">
+            <div class="container">
+                <h1>Get smarter with <span class="title">DIOT</span>.</h1>
+                <div class="social-content">
+                    <h6>Connect with us</h6>
+                    <div class="socials">
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-facebook"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-imgs">
+                <img class="home-img default" src="./images/person1.png" alt="Person wearing DIOT Watch">
+                <img class="home-img other hide" src="./images/person1-dark.png" alt="Person wearing DIOT Watch">
+            </div>
+
+            <i class="fas fa-arrow-down go-down" id="down-arrow"></i>
+        </div>
+        <div id="about">
+            <div id="img-selector">
+                <div id="current-img">
+                    
+                </div>
+                <div id="all-img">
+                    <img id="" src="./images/fitbit1.png" alt="">
+                    <img src="./images/fitbit2.png" alt="">
+                    <img src="./images/fitbit3.png" alt="">
+                </div>
+            </div>
+            <div class="container">
+                <h2><span class="title">Stay healthy & fit </span>with our coaches and world trainers.</h2>
+                <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi molestiae officiis repellendus accusamus corrupti? Dolor?</p>
+                <div class="line"></div>
+                <p class="body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, praesentium consequatur? Aperiam, ducimus saepe! Necessitatibus quibusdam ducimus accusantium atque ea? Facilis recusandae eum amet distinctio quo blanditiis quasi velit accusamus odio, et ipsam qui dolores nostrum iste voluptatum debitis!
+                </p>
+                <div class="items">
+                    <div class="item">
+                        <div class="item">
+                            <i class="fas fa-bezier-curve"></i>
+                            <div class="content">
+                                <h5>Beautiful design</h5>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque laudantium suscipit, dolore officia nesciunt aliquam soluta aliquid dolores sint, sapiente in voluptates vitae nulla? Modi atque qui facere excepturi harum.</p>
+                            </div>
+                            
+                        </div>
+                        <div class="item">
+                            <i class="fas fa-clone"></i>
+                            <div class="content">
+                                <h5>Data syncing across all devices</h5>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque laudantium suscipit, dolore officia nesciunt aliquam
+                                    soluta aliquid dolores sint, sapiente in voluptates vitae nulla? Modi atque qui facere excepturi harum.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <i class="fas fa-pen"></i>
+                            <div class="content">
+                                <h5>Customizable to suite your needs</h5>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque laudantium suscipit, dolore officia nesciunt aliquam
+                                    soluta aliquid dolores sint, sapiente in voluptates vitae nulla? Modi atque qui facere excepturi harum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <small>Attribution to: <a href="https://www.flaticon.com/authors/dinosoftlabs">Flat Icon</a> | <a href="https://www.pexels.com/@shvets-production?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">Pexels</a> | <a href="https://www.pngitem.com/download/bomRJJ_fitbit-versa-fitbit-versa-2-price-hd-png/">PNG Item</a> | <a href="https://fontawesome.com/v5.15/icons/heart">Font Awesome</a></small>
+        <small>Website made with <i class="fas fa-heart"></i> by Doreen Chemweno.</small>
+    </footer>
+
+
+    <!-- to credit -->
+
+    <!-- 
+        envelope - 
+        boy wearing watch - 
+        all fitbits - 
+    -->
+</body>
+</html>
